@@ -1,0 +1,175 @@
+.ref_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ref_code_pane h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+}
+
+.ref_code_pane div {
+    border: 1.5px solid #DFDFDF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75em;
+    color: #000000;
+    padding: 13px 15px;
+    margin-top: 10px !important;
+}
+
+.wallet_bal_pane {
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.wallet_bal_pane h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+}
+
+.wallet_bal_pane div {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.who__enrolled {
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+
+}
+
+.heading h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #800080;
+    margin: 1rem 0;
+}
+
+.heading__data {
+    color: #626262 !important;
+}
+
+.friends__repeater {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.friends__item {
+    min-width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+.item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__header h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item__header p {
+    margin: 0 !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF
+}
+
+.item__body {
+    margin-top: 10px;
+    color: white;
+}
+
+.item__body h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.course__repeater {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    gap: 10px;
+    margin: 0.5rem 0;
+    height: 100px;
+}
+
+.course__repeater::-webkit-scrollbar {
+    width: 5px;
+}
+
+.course__repeater::-webkit-scrollbar-thumb {
+    background: #EEAEAE;
+    border-radius: 2.5px;
+}
+
+.course__item {
+    padding: 4px 9px;
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+    height: min-content;
+}
+
+.item__footer {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 5px; 
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.ref__amount {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 578px) {
+    .friends__repeater {
+        flex-direction: column;
+        overflow-x: unset;
+    }
+
+    .friends__item {
+        width: calc(100% - 2.5rem);
+        min-width: none;
+    }
+}

@@ -1,0 +1,198 @@
+
+.refer__main {
+    padding: 1rem 142px;
+    box-sizing: border-box;
+}
+  
+  .refer__contain {
+    display: flex;
+  }
+  
+  .refer__dashboard {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 3px 100px rgba(0, 0, 0, 0.1);
+    margin-right: auto;
+    width: 486px;
+  }
+  
+  .refer__dashboard h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+  }
+  
+  
+  
+  .refer__dashboard p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 0;
+  }
+  
+  .ref_dash_details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 5rem;
+  }
+
+  
+  .withdraw_btn {
+    padding: 8px 16px;
+    background: #800080;
+    color: white;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .refer__btn {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .refer__btn button {
+    border: none;
+    outline: none;
+  }
+  
+  .refer__code h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+  
+    margin-bottom: 20px !important;
+  }
+
+  .withdraw_btn {
+    height: min-content;
+  }
+  
+  .refer__code span {
+    box-sizing: border-box;
+    border-image: linear-gradient(to right, #FF864C, #800080) 1 100;
+    border-width: 1.5px;
+    border-style: solid;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+  
+    padding: 15px 64px;
+    color: #800080;
+  }
+  
+  .hdw__contain {
+    margin: 40px 0 !important;
+  
+  }
+  
+  .hdw__contain h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+    margin-bottom: 1rem;
+  }
+  
+  .hdw__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+  }
+  
+  .hdw__box {
+    display: flex;
+    margin-right: 3rem;
+    margin-bottom: 37px;
+}
+
+.icon__span {
+    height: 65px !important;
+    width: 65px !important;
+    background: #d9d9d9 25%;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon__span svg {
+    font-size: 26.67px;
+}
+
+.details__span {
+    margin-left: 1.25rem;
+    width: 275px;
+  }
+  
+  .details__span h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .details__span p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+    margin: 0;
+  }
+  
+  .bottom__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080 !important;
+    margin-bottom: 3rem !important;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .refer__main {
+      padding: 1rem;
+    }
+  
+    .refer__dashboard {
+      width: 358px;
+    }
+    
+    .ref_dash_details {
+      width: 100%;
+      gap: 0 3.75rem;
+      margin-right: 0;
+    }
+  
+    .refer__btn {
+      width: max-content;
+    }
+  
+    .refer__contain {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .withdraw_btn {
+      width: fit-content;
+    }
+
+  
+    .hdw__box {
+      margin: 1rem auto;
+    }
+  }

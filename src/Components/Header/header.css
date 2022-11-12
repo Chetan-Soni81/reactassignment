@@ -1,0 +1,123 @@
+.header {
+    background: white;
+}
+
+
+.header__nav {
+    padding: 6px 74px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    height: 63px;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 160px;
+    height: 63px;
+    object-fit: contain;
+}
+
+.nav__links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.nav__links a {
+    text-decoration: none;
+}
+
+.nav__item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, .25);
+}
+
+.nav_drop {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #800080;
+    gap: 4px;
+    align-items: center;
+}
+
+.nav_drop a {
+    color: #800080;
+}
+
+.profile_pic {
+    font-size: 20px;
+}
+
+.breadcrumb__pane {
+    padding: 30px 0 25px 142px;
+}
+
+ul.breadcrumb__list {
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb__list li {
+    display: inline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb__list li+li:before {
+    padding: 8px;
+    color: black;
+    content: "\003E";
+  }
+
+@media only screen and (max-width: 576px) {
+    .nav__item{
+        display: none;
+    }
+
+    .nav__links {
+        gap: 0;
+    }
+
+    .header__nav{
+        padding: 0 12px;
+    }
+
+    .nav_drop {
+        padding: 12px 25px;
+        gap: 10px;
+        background: #800080;
+        border-radius: 10px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .nav_drop a {
+        color: white;
+    }
+
+    .nav_drop .profile_pic {
+        display: none;
+    }
+
+    .breadcrumb__pane {
+        padding: 16px;
+    }
+}
